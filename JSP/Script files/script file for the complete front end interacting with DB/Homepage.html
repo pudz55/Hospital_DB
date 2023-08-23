@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Welcome to Hospital</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Welcome to the Hospital</h1>
+		<p>Please click below to continue</p>
+	</div>
+
+	<form action="patientlogin.jsp"method "post">
+		<input type="submit" class="button" value="PATIENT">
+	</form>
+
+	<form action="admin.jsp"method "post">
+		<input type="submit" class="button" value="DOCTOR/ADMIN">
+	</form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Welcome to patients data</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Hospital Reports</h1>
+		<p>This Page provide the reports of hospital resources</p>
+	</div>
+
+	<form action="dataretrive.jsp" method="post">
+
+		<td>Click to view registered patients data -></td>
+
+		<td><input type="submit" value="click to view patients data"></td>
+	</form>
+	<td></td>
+	<form action="docdata.jsp" method="post">
+
+		<td>Click to view doctors -></td>
+
+		<td><input type="submit" value="click to view doctors data"></td>
+	</form>
+	<td></td>
+	<form action="emr.jsp" method="post">
+
+		<td>click on the button to view the medical records of patients
+			-></td>
+		<td><input type="submit" value="proceed"></td>
+	</form>
+	<td></td>
+	<form action="medquantQube.jsp" method="post">
+
+		<td>click on the button to view the total quantity of medicine -></td>
+		<td><input type="submit" value="proceed"></td>
+	</form>
+
+	<td></td>
+	<form action="medquantrollup.jsp" method="post">
+
+		<td>click on the button to view the cost of medicines in the
+			hospital -></td>
+		<td><input type="submit" value="proceed"></td>
+	</form>
+
+	<td></td>
+	<form action="appointmentinfo.jsp" method="post"></form>
+
+	<td></td>
+	<form action="patienttotalcost.jsp" method="post">
+		<tr>
+			<td>Enter Patient id number to view total expenses</td>
+			<td><input type="text" name="pnum"></td>
+			<button type="reset" value="Reset">Reset</button>
+		<tr>
+			<td><input type="submit" value="proceed"></td>
+	</form>
+
+	<td></td>
+	<form action="appointcount.jsp" method="post">
+		<tr>
+			<td>Click to view number of appointments each patients booked</td>
+			<td><input type="submit" value="proceed"></td>
+		</tr>
+	</form>
+
+
+
+</body>
+</html>
